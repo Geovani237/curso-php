@@ -10,7 +10,7 @@ print_r('<h2>Escrevendo de novo</h2>');
 $nome = 'Geovani';
 $idade = 18;
 $altura = 1.75;
-$fumante = true;
+$fumante = false;
 
 
 echo '<br>';
@@ -19,4 +19,13 @@ echo $idade . '<br>';
 echo $altura . '<br>';
 echo $fumante . '<br>';
 echo 'Olá ' . $nome . ' você tem ' . $idade . ' anos';
+
+echo '<hr>';
+echo gettype($nome) . '<br>';
+echo gettype($idade) . '<br>';
+echo gettype($altura) . '<br>';
+echo gettype($fumante) . '<br>';
+
+$altura = '1.75';
+echo gettype($altura) . '<br>';
 ?>
