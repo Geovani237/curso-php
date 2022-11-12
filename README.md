@@ -49,3 +49,11 @@ Variável é um espaço na memória que damos um nome para armazenar algum valor
  - Integer: todo número inteiro. Exemplo: 36
  - float ou double: todo número decimal. Exemplo: 1.75
  - boolean: Valor de verdadeiro(true) ou falso(false). 
+
+ ### Operadores aritméticos
+ - + : adição
+ - - : operador subtração
+ - * : operador de multiplicação
+ - / : operador de divisão
+ - **: exponenciação
+ - % : resto da divisão, operador de módulo
